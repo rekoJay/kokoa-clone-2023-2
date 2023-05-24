@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+body{background-color: #02BFA3; width: 600px; font-family: 'Open Sans', sans-serif;}
+.Back {background-color: white;
+width: 300px; height: 100vh;}
+header{display: flex; justify-content: center; align-items: center; padding-top: 30px;}
+.Playlist-header {width: 50%;}
+.Playlist-header:first-child{display: flex; justify-content: flex-start; padding-left: 15px;}
+.Playlist-header:last-child{display: flex; justify-content: center; padding-right: 30%;}
+.Random{display: flex; justify-content:baseline; align-items: center; margin-bottom: 10px;}
+.bigsqure{background-color: #FFB413;
+width: 100px; height: 100px;
+display: flex; justify-content: center; align-items: center;
+border-radius: 15px; border: 2px black solid; margin-left: 15px;}
+p{margin-left: 10px;}
+.divay:first-child{font-size: 30px; font-weight: 900;}
+.divay:last-child{font-size: 15px; font-weight: 700;}
+.Play{display: flex; justify-content: space-between; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;
+}
+button{border-radius: 50%; border-bottom-width: thick ;}
+.Play-button:first-child{width: 150px; height: 50px; border-radius: 10px;}
+.Play-button:first-child span{font-size: large; margin-left: 5px;}
+.Play-button:nth-child(2){width: 50px; height: 50px; font-size: large;}
+.Play-button:last-child{width: 50px; height: 50px; font-size: large;}
+ul{list-style: none;}
+.line{display: flex; margin-left: 20px; margin-bottom: 30px;}
+.square{width:50px; height: 50px; border-radius: 10px; border: 2px solid black;
+}
+.span{display: flex; flex-direction: column; justify-content: center; margin-left: 10px;}
+.Color{padding-top: 10px;}
+#tomato{background-color: tomato;}
+#pink{background-color: pink;}
+#blue{background-color: blue;}
+#teal{background-color: turquoise;}
+.first {font-size: larger; font-weight: bold;}
+.second

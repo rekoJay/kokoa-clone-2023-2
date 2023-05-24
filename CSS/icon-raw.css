@@ -1,0 +1,4 @@
+.icon-raw-icons{display: flex; justify-content: space-between;}
+.icon-raw-icons__icon{display: flex; flex-direction: column; align-items: center;}
+.icon-raw-icons__icon i{font-size: 35px;}
+.icon-raw-icons__icon span{margin-top: 15px;}

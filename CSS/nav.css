@@ -1,0 +1,51 @@
+.nav{background-color:#f9f9fa; padding: 20px 50px;
+border-top: 1px solid rgba(230, 220, 220, 0.8);
+position: fixed; bottom: 0; width: 100%;
+box-sizing: border-box;}
+.nav__ul{display: flex; justify-content: space-between;}
+
+@keyframes appearBtnAnimation {
+    from{
+
+opacity: 0;
+    }
+    to{
+transform: none;
+opacity: 1;
+    } 
+}
+.nav__li{position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+animation: appearBtnAnimation 0.3s ease-in-out forwards;}
+
+.nav__li:nth-child(2){
+animation-delay: 0.2s;
+}
+.nav__li:nth-child(3){
+    animation-delay: 0.5s;
+}
+.nav__li:last-child{
+    animation-delay: 0.8s;
+}
+
+@keyframes notificationAnimation {
+0%{
+transform: none;
+}
+50%{
+transform: translateY(-5px) rotateY(360deg);
+}
+100%{
+transform: none;
+}
+}
+.nav__notification{
+position: absolute;
+left: 10px;
+bottom: 5px;
+animation: notificationAnimation 2s ease-in-out infinite;}
+.reddot{background-color: tomato; width: 5px; height: 5px; border-radius: 50%;
+position: absolute; left: 20px; bottom: 13px;}
+.reddot2{background-color: tomato; width: 5px; height: 5px; border-radius: 50%;
+    position: absolute; right:20px; top:53px;}
